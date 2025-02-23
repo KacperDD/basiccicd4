@@ -71,7 +71,7 @@ jobs:
        run: docker rm -f weather-app-container
 
 
-    SBOM:
+  SBOM:
       name: Build and Test
       runs-on: ubuntu-latest
       steps:
